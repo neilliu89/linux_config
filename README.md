@@ -67,6 +67,7 @@ brew install aria2 \
 
 ```
 安装完提示：
+```
 ==> Summary
 🍺  /usr/local/Cellar/zsh-syntax-highlighting/0.7.1: 27 files, 164.4KB
 ==> Caveats
@@ -205,7 +206,7 @@ you may need to add the following to your .zshenv:
   export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters
 ```
 
-
+```
 # install oh-my-zsh  https://github.com/robbyrussell/oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # now you can copy your own .zshrc file
