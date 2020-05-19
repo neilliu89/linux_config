@@ -218,6 +218,11 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
 # install iterm2 theme: https://draculatheme.com/iterm/
 ```
 
+```
+brew tap homebrew/cask-fonts
+brew cask install font-source-code-pro
+```
+
 # 注意：
 
 - 如果 oh-my-zsh 使用 powerlevel10k 之类的特殊主题，注意需要安装 nerd font 之类的特殊字体显示图标
