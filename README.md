@@ -218,11 +218,23 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
 # install iterm2 theme: https://draculatheme.com/iterm/
 ```
 
-```
-brew tap homebrew/cask-fonts
-brew cask install font-source-code-pro
-```
+
 
 # 注意：
 
 - 如果 oh-my-zsh 使用 powerlevel10k 之类的特殊主题，注意需要安装 nerd font 之类的特殊字体显示图标
+# github：https://github.com/ohmyzsh/ohmyzsh
+
+- 安装Nerd Font字体
+# https://github.com/ryanoasis/nerd-fonts
+```
+brew tap homebrew/cask-fonts
+brew cask install font-hack-nerd-font
+```
+- 安装powerlevel10k 
+# powerlevel10k: https://github.com/romkatv/powerlevel10k
+```
+brew install romkatv/powerlevel10k/powerlevel10k
+echo 'source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
+```
+
